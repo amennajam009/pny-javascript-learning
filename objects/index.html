@@ -38,11 +38,26 @@ var music={
         "pop corn"
     ],
 
-
-
-    
-
 }
+
+//COMPLEX OBJECT USING DOT NOTATION
+
+
+var Myobjects={
+    "name":"amen",
+    "age":20,
+    "gender":"female",
+    "goals":"To be web developer",
+    "hobbies":{
+        "like to play guitar":"sia song",
+        "love to sing":"only in bathroom XD",
+        "sometimes love to play video games too":"GTA 5 , STAY,FORTNITE"
+    },
+    "LAST":"ONE",
+}
+
+var otheroneobject=Myobjects.name.age.gender.goals.hobbies["like to play guitar"];
+console.log(otheroneobject);
 
 
 
