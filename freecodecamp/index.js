@@ -76,3 +76,38 @@ casenoone(2);
         return answer;
     }
 downone();
+
+
+// if /else if ki jagah hum ab use krein gy switch statement
+
+function downone(val){
+    let answer="";
+
+    switch(val){
+    case "bob":(val === "bob")
+    {
+        answer="yes it's bob";
+        break;
+    }
+
+    case "pink":(val ==="pink")
+    {
+        answer="yes it's me pink";
+        break;
+    }
+    case "chris":(val === "chris")
+    {
+        answer="yes chris is naughty boii";
+        break;
+    }
+
+    case 77:(val ==="77")
+    {
+        answer="yes it's a right one";
+        break;
+    }
+    }
+    return answer;
+}
+
+downone();
