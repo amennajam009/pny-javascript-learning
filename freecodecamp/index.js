@@ -47,3 +47,32 @@ casenoone(2);
  }
 
  defaultcase(a);
+
+
+//  multiple Identical Option in switch statements
+
+    function downone(val){
+        let answer="";
+
+        switch(val){
+         case 1:
+         case 2:
+        case 3:
+            answer="this is low one";
+            break; 
+            
+          case 4:
+            case 5:
+                case 6:
+                    answer="this is medium one";
+                    break;
+                    
+           case 7:
+            case 8:
+                case 9:
+                    answer="this oneis the hight one";
+                    break;
+        }
+        return answer;
+    }
+downone();
