@@ -18,3 +18,32 @@ function casenoone(val){
     return result;
 }
 casenoone(2);
+
+// switch statement with default 
+
+
+ function defaultcase(val){
+
+    let answer="";
+    switch(val){
+    
+    case "a":
+        answer="apple";
+        break;
+        
+        case "b":
+            answer="ball";
+            break;
+
+            case "c":
+                answer="cats";
+                break;
+        
+              default:
+                answer="when no one statemnet is true so it will works in switch statement";   
+    }
+
+    return answer;
+ }
+
+ defaultcase(a);
