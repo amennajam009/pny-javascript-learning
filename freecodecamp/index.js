@@ -142,3 +142,18 @@ function downone(val){
     return answer;
 }
 
+
+
+// for loop in javascript is used to print the things in loop for example like this
+
+var ourArray = [];
+for(var i=0; i<5;i++){
+    ourArray.push(i);
+}
+
+var myArray=[];
+for(var i=0; i<6;i++){
+    myArray.push(i);
+
+    console.log(myArray);
+}
