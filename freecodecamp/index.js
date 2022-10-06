@@ -29,7 +29,7 @@ function cc(card){
     return count  + "Hold";
    }
 }
-
+cc(2); cc(3); cc(7); cc('K'); cc('A');
 // today we're gonna know about the switch statement
 
 function casenoone(val){
