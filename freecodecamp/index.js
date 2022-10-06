@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Counting Cards
 
 let count = 0;
@@ -29,7 +29,7 @@ function cc(card){
     return count  + "Hold";
    }
 }
-=======
+
 // today we're gonna know about the switch statement
 
 function casenoone(val){
@@ -142,5 +142,3 @@ function downone(val){
     return answer;
 }
 
-downone();
->>>>>>> 359a4793dcf8971a9952236de06d1d5d56333825
