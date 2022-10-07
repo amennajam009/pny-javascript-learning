@@ -1,3 +1,35 @@
+
+// Counting Cards
+
+let count = 0;
+
+function cc(card){
+   switch(card){
+     case 2:
+     case 3:
+     case 4:
+     case 5:
+     case 6:
+      count++;
+      break;
+     case 7:
+     case 'j':
+     case 'K':
+     case 'L' :
+     case 'm' :
+       count -- ;
+       break;
+
+   }
+   // thats how we can use if else statement in switch statement......!!!!
+
+   if(count > 0){
+     return count + "BET";
+   }else{
+    return count  + "Hold";
+   }
+}
+cc(2); cc(3); cc(7); cc('K'); cc('A');
 // today we're gonna know about the switch statement
 
 function casenoone(val){
@@ -116,6 +148,7 @@ function downone(val){
     return answer;
 }
 
+<<<<<<< HEAD
 downone();
 
 
@@ -133,3 +166,52 @@ while(i >=0){
     myArray.push(i);
     i--;
 }
+=======
+
+
+// for loop in javascript is used to print the things in loop for example like this
+
+var ourArray = [];
+for(var i=0; i<5;i++){
+    ourArray.push(i);
+}
+
+var myArray=[];
+for(var i=0; i<6;i++){
+    myArray.push(i);
+
+    console.log(myArray);
+}
+
+// even numbers using for loop
+var ourArray = [];
+
+for (var i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+
+var myArray = [];
+
+
+
+for (var i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
+
+// Count Backwards With a For Loop
+var ourArray = [];
+
+for (var i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (var i = 9; i > 0; i -= 2) {
+  myArray.push(i);
+}
+
+>>>>>>> 740a43aa1aad522915d4be97bf5974bce5216d50
