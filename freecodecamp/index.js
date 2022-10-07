@@ -106,8 +106,30 @@ function downone(val){
         answer="yes it's a right one";
         break;
     }
+
+    case "salmoon":(val === " salmoon")
+    {
+        answer="yes he is stupid ass shit...!";
+        break;
+    }
     }
     return answer;
 }
 
 downone();
+
+
+
+
+// we use while loop so that it wil ltest at first while statement should execute first..
+
+
+const i=5;
+
+let myArray=[];
+
+
+while(i >=0){
+    myArray.push(i);
+    i--;
+}
