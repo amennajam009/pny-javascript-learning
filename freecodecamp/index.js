@@ -148,7 +148,7 @@ function downone(val){
     return answer;
 }
 
-<<<<<<< HEAD
+
 downone();
 
 
@@ -157,16 +157,16 @@ downone();
 // we use while loop so that it wil ltest at first while statement should execute first..
 
 
-const i=5;
+const k=5;
 
-let myArray=[];
+let second=[];
 
 
-while(i >=0){
+while(k >=0){
     myArray.push(i);
-    i--;
+    k--;
 }
-=======
+
 
 
 // for loop in javascript is used to print the things in loop for example like this
@@ -195,23 +195,22 @@ var myArray = [];
 
 
 
-for (var i = 1; i < 10; i += 2) {
-  myArray.push(i);
+for (var o = 1; i < 10; i += 2) {
+  myArray.push(o);
 }
 
 // Count Backwards With a For Loop
 var ourArray = [];
 
-for (var i = 10; i > 0; i -= 2) {
-  ourArray.push(i);
+for (var w = 10; i > 0; i -= 2) {
+  ourArray.push(w);
 }
 
 // Setup
 var myArray = [];
 
 // Only change code below this line.
-for (var i = 9; i > 0; i -= 2) {
-  myArray.push(i);
+for (var w = 9; i > 0; i -= 2) {
+  myArray.push(w);
 }
 
->>>>>>> 740a43aa1aad522915d4be97bf5974bce5216d50
