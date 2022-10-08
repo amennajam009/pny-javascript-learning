@@ -89,3 +89,17 @@ const Myplants=[{
 ];
 
 Myplants[0].Fruits[1];
+
+
+//  make the code more reuable with the use of (this)
+
+
+const mydog={
+    name:"tommy",
+    height:1.5,
+    leg:2,
+    sayLegs:function(){
+        return "it is not possible that any dog has"+this.leg+"legs lol";
+    }
+};
+dog.sayLegs;
