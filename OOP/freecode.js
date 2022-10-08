@@ -103,3 +103,13 @@ const mydog={
     }
 };
 dog.sayLegs;
+
+
+// use of constructor in OOP 
+
+function dog(){
+    this.name="tommy";
+    this.age="5 years old";
+    this.numLegs=4;
+
+}
