@@ -115,3 +115,10 @@ function dog(){
 }
 
 
+// count backward with for loop
+
+var myArray=[];
+
+for(var i=10; i>0; i-=2){
+    myArray.push(i);
+}
